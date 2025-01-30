@@ -26,7 +26,7 @@ const Index = () => {
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            MEOと口コミを活かして、<br />お客様とのつながりを深める
+            MEOとクチコミを活かして、<br />お客様とのつながりを深める
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
             店舗オーナー様の集客をトータルサポート
@@ -120,7 +120,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">一緒に、一歩先の集客を目指しませんか？</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            MEOと口コミの力で、お客様とのつながりを深め、店舗の未来を切り拓きましょう。
+            MEOとクチコミの力で、お客様とのつながりを深め、店舗の未来を切り拓きましょう。
           </p>
           <Button variant="secondary" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-6 h-auto">
             無料相談を予約する
