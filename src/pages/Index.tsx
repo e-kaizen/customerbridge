@@ -119,6 +119,57 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Contract Types Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
+            ご契約形態
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-8 rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 bg-white group hover:-translate-y-1">
+              <div className="h-16 w-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                <Check className="w-8 h-8 text-orange-500" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">ツールのみの利用</h3>
+              <p className="text-gray-600">
+                MEO対策に必要な分析ツールを提供。
+                自社で運用される企業様向けのプランです。
+              </p>
+            </div>
+
+            <div className="p-8 rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 bg-white group hover:-translate-y-1">
+              <div className="h-16 w-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-orange-500" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Google Business Profile登録サポート</h3>
+              <p className="text-gray-600">
+                Google Business Profileの新規登録から最適化までサポート。
+                効果的なプロフィール作成をお手伝いします。
+              </p>
+            </div>
+
+            <div className="p-8 rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 bg-white group hover:-translate-y-1">
+              <div className="h-16 w-16 bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                <Building className="w-8 h-8 text-orange-500" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">運用サポート</h3>
+              <p className="text-gray-600">
+                Google Business Profileの運用を全面的にサポート。
+                投稿管理やクチコミ対応もお任せいただけます。
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-gray-600 text-lg">
+              ※MEO以外にも、運用上の困りごとに対して、最適なツールのご提案も承っております。
+              お気軽にご相談ください。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="max-w-7xl mx-auto text-center">
