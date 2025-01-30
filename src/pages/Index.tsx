@@ -26,7 +26,7 @@ const Index = () => {
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            MEOとクチコミを活かして、<br />お客様とのつながりを深める
+            MEOとクチコミを活かして、<br />お客様との繋がりを深めるお手伝いをいたします
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
             店舗オーナー様の集客をトータルサポート
