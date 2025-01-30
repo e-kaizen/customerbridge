@@ -20,9 +20,9 @@ const Index = () => {
           <img 
             src="/lovable-uploads/49e2f3b8-e0d7-4573-be9c-3451a2fe1be3.png" 
             alt="Restaurant review on mobile phone" 
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-10"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white via-white/90 to-white/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white via-white/95 to-white/90"></div>
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
