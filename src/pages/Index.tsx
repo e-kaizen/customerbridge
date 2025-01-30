@@ -88,7 +88,7 @@ const Index = () => {
             {/* Feature cards */}
             <div className="p-8 rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 bg-white group hover:-translate-y-1">
               <MapPin className="w-12 h-12 text-orange-500 mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">MEOで検索上位表示をサポート</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-800">指定キーワードでの検索順位を</h3>
               <p className="text-gray-600">指定キーワード × 地域の順位を自動記録。上位店舗との比較データで改善施策を導きます。</p>
             </div>
 
