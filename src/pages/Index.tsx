@@ -64,7 +64,7 @@ const Index = () => {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-6 rounded-lg shadow-lg border">
-                <ChartBar className="w-16 h-16 text-orange-500" />
+                <MapPin className="w-16 h-16 text-orange-500" />
               </div>
             </div>
           </div>
