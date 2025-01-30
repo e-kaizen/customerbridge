@@ -56,8 +56,12 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg flex items-center justify-center">
-                <MapPin className="w-32 h-32 text-primary/40" />
+              <div className="aspect-square bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/lovable-uploads/49e2f3b8-e0d7-4573-be9c-3451a2fe1be3.png"
+                  alt="Restaurant review demonstration"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-6 rounded-lg shadow-lg border">
                 <ChartBar className="w-16 h-16 text-orange-500" />
