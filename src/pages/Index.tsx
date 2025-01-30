@@ -30,7 +30,8 @@ const Index = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in leading-tight tracking-tight">
             MEOとクチコミを活かして、<br className="hidden sm:block" />
             お客様との繋がりを<br className="sm:hidden" />
-            深めるお手伝いを<br className="hidden sm:block" />
+            深める<br className="hidden sm:block" />
+            お手伝いを<br />
             いたします
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto animate-fade-in">
