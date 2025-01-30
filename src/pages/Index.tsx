@@ -27,8 +27,11 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-white via-white/95 to-white/90"></div>
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in leading-tight">
-            MEOとクチコミを活かして、<br />お客様との繋がりを深めるお手伝いをいたします
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in leading-tight tracking-tight">
+            MEOとクチコミを活かして、<br className="hidden sm:block" />
+            お客様との繋がりを<br className="sm:hidden" />
+            深めるお手伝いを<br className="hidden sm:block" />
+            いたします
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto animate-fade-in">
             店舗オーナー様の集客をトータルサポート
