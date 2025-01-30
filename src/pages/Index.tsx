@@ -29,6 +29,36 @@ const Index = () => {
         </div>
       </section>
 
+      {/* MEO Explanation Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6">MEO(Map Engine Optimization)とは?</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                GoogleMapsや検索結果で、お店が見つかりやすくなるように最適化することです。
+                似た言葉にSEO(Search Engine Optimization)があります。SEOはGoogleやYahooといった検索エンジンの検索結果を最適化することです。
+              </p>
+              <div className="bg-white p-6 rounded-lg shadow-sm border">
+                <h3 className="text-xl font-semibold mb-4">重要性</h3>
+                <p className="text-gray-600">
+                  「地名 + キーワード」検索で上位表示されると、人の目に触れる回数が増え、新規顧客が増加します。
+                  クチコミ管理や写真・メニューで、お客様に信頼感を与えられます。
+                </p>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="aspect-square bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg flex items-center justify-center">
+                <MapPin className="w-32 h-32 text-primary/40" />
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-white p-6 rounded-lg shadow-lg border">
+                <ChartBar className="w-16 h-16 text-orange-500" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
