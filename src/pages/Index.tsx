@@ -16,13 +16,13 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="absolute inset-0 z-0">
           <img 
             src="/lovable-uploads/49e2f3b8-e0d7-4573-be9c-3451a2fe1be3.png" 
             alt="Restaurant review on mobile phone" 
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/90 to-white/95"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white via-white/90 to-white/80"></div>
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
