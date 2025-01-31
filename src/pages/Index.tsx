@@ -36,7 +36,7 @@ const Index = () => {
             店舗オーナー様の集客をトータルサポート
           </p>
           <Button className="bg-orange-500 hover:bg-orange-600 text-lg px-8 py-6 h-auto animate-fade-in shadow-lg transform hover:scale-105 transition-all duration-200">
-            無料相談を予約
+            無料相談を予約する
           </Button>
         </div>
       </section>
@@ -178,7 +178,7 @@ const Index = () => {
             MEOとクチコミの力で、お客様とのつながりを深め、店舗の未来を切り拓きましょう。
           </p>
           <Button variant="secondary" className="bg-white text-orange-600 hover:bg-gray-100 text-lg px-8 py-6 h-auto shadow-lg transform hover:scale-105 transition-all duration-200">
-            無料相談を予約
+            無料相談を予約する
           </Button>
         </div>
       </section>
