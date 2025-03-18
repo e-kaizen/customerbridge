@@ -240,7 +240,8 @@ const Index = () => {
               <div>
                 <h4 className="text-lg font-semibold text-white mb-4">リンク</h4>
                 <ul className="space-y-2">
-                  <li><a href="#company" className="hover:text-orange-400 transition-colors">会社概要</a></li>
+                  <li><Link to="/company-info" className="hover:text-orange-400 transition-colors">会社概要</Link></li>
+                  <li><Link to="/legal-business-info" className="hover:text-orange-400 transition-colors">特定商取引法に基づく表記</Link></li>
                   <li><Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">プライバシーポリシー</Link></li>
                   <li><Link to="/terms-of-service" className="hover:text-orange-400 transition-colors">利用規約</Link></li>
                 </ul>
