@@ -7,7 +7,6 @@ import { Home } from "lucide-react";
 const LegalBusinessInfo = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
       <header className="w-full bg-white border-b shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-primary bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
@@ -22,7 +21,6 @@ const LegalBusinessInfo = () => {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Card className="mb-8">
           <CardHeader>
@@ -58,9 +56,21 @@ const LegalBusinessInfo = () => {
                     <th className="py-4 pr-4 font-semibold text-gray-700">販売URL</th>
                     <td className="py-4 text-gray-600">https://customerbridge.netlify.app/</td>
                   </tr>
-                  <tr>
+                  <tr className="border-b">
                     <th className="py-4 pr-4 font-semibold text-gray-700">お支払い方法</th>
                     <td className="py-4 text-gray-600">クレジットカード決済</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th className="py-4 pr-4 font-semibold text-gray-700">商品引渡し時期</th>
+                    <td className="py-4 text-gray-600">お支払い確認後、24時間以内にメールにてご案内</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th className="py-4 pr-4 font-semibold text-gray-700">商品以外の必要料金</th>
+                    <td className="py-4 text-gray-600">発生しません</td>
+                  </tr>
+                  <tr>
+                    <th className="py-4 pr-4 font-semibold text-gray-700">返品・キャンセル・不良品</th>
+                    <td className="py-4 text-gray-600">キャンセルを希望される場合は、お申込みから1週間以内に電話または問い合わせフォームよりお問い合わせをお願いいたします。サービス提供後のキャンセル・返金には応じかねます。</td>
                   </tr>
                 </tbody>
               </table>
@@ -77,7 +87,6 @@ const LegalBusinessInfo = () => {
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8 px-4 sm:px-6 lg:px-8 mt-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
