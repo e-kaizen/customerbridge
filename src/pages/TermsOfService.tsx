@@ -2,9 +2,11 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Home, FileText } from "lucide-react";
+import { Home, FileText, ExternalLink } from "lucide-react";
 
 const TermsOfService = () => {
+  const termsDocumentUrl = "https://drive.google.com/file/d/1WIo5cEaHEvHqeHT2CgdLHDjaGR1ysJBh/view?usp=sharing";
+  
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -35,13 +37,16 @@ const TermsOfService = () => {
               <FileText className="h-24 w-24 text-orange-500" />
               <h2 className="text-2xl font-semibold text-gray-800">利用規約はPDFファイルでご提供しています</h2>
               <p className="text-gray-600 max-w-lg">
-                現在、利用規約のPDFファイルは準備中です。完成次第、こちらからダウンロード可能になります。
+                利用規約の内容を確認するには、以下のボタンをクリックしてPDFをご覧ください。
               </p>
               <div className="mt-8">
-                <Button variant="outline" className="flex items-center gap-2" disabled>
-                  <FileText size={16} />
-                  利用規約をダウンロード (準備中)
-                </Button>
+                <a href={termsDocumentUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="default" className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600">
+                    <FileText size={16} />
+                    利用規約を表示する
+                    <ExternalLink size={16} />
+                  </Button>
+                </a>
               </div>
               <p className="text-sm text-gray-500 mt-8">
                 規約に関するお問い合わせは、お問い合わせフォームよりご連絡ください。
