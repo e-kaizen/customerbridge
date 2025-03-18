@@ -1,5 +1,8 @@
+
 import { Building, MapPin, Star, MessageCircle, ChartBar, Users, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { Separator } from "@/components/ui/separator";
 
 const CONTACT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSd1dKXW2XPzr4muSBDnjmAtIauRXvCApUM0zBkcTVy6HM8zpA/viewform?usp=dialog";
 
@@ -176,6 +179,40 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Company Information Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" id="company">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
+            会社概要
+          </h2>
+          
+          <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <div className="p-8">
+              <table className="w-full text-left">
+                <tbody>
+                  <tr className="border-b">
+                    <th className="py-4 pr-4 font-semibold text-gray-700 w-1/3">商号</th>
+                    <td className="py-4 text-gray-600">株式会社カイゼンテック　Kaizentech, Inc.</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th className="py-4 pr-4 font-semibold text-gray-700">住所</th>
+                    <td className="py-4 text-gray-600">〒213-0001 神奈川県川崎市高津区溝口3-12-2</td>
+                  </tr>
+                  <tr className="border-b">
+                    <th className="py-4 pr-4 font-semibold text-gray-700">連絡先</th>
+                    <td className="py-4 text-gray-600">044-567-0464</td>
+                  </tr>
+                  <tr>
+                    <th className="py-4 pr-4 font-semibold text-gray-700">適格請求書発行事業者</th>
+                    <td className="py-4 text-gray-600">登録番号：T9020001130356</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="max-w-7xl mx-auto text-center">
@@ -190,6 +227,38 @@ const Index = () => {
           </a>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h3 className="text-xl font-bold text-white mb-4">CustomerBridge</h3>
+              <p className="mb-4 text-gray-400">MEOとクチコミを活かして、お客様との繋がりを深めるお手伝いをいたします</p>
+            </div>
+            <div className="grid grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-lg font-semibold text-white mb-4">リンク</h4>
+                <ul className="space-y-2">
+                  <li><a href="#company" className="hover:text-orange-400 transition-colors">会社概要</a></li>
+                  <li><Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">プライバシーポリシー</Link></li>
+                  <li><Link to="/terms-of-service" className="hover:text-orange-400 transition-colors">利用規約</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-white mb-4">お問い合わせ</h4>
+                <a href={CONTACT_FORM_URL} target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:underline">
+                  お問い合わせフォーム
+                </a>
+              </div>
+            </div>
+          </div>
+          <Separator className="bg-gray-700 my-6" />
+          <div className="text-center text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} 株式会社カイゼンテック All rights reserved.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
