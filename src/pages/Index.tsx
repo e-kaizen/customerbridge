@@ -1,4 +1,3 @@
-
 import { Building, MapPin, Star, MessageCircle, ChartBar, Users, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -179,39 +178,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Company Information Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" id="company">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
-            会社概要
-          </h2>
-          
-          <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="p-8">
-              <table className="w-full text-left">
-                <tbody>
-                  <tr className="border-b">
-                    <th className="py-4 pr-4 font-semibold text-gray-700 w-1/3">商号</th>
-                    <td className="py-4 text-gray-600">株式会社カイゼンテック　Kaizentech, Inc.</td>
-                  </tr>
-                  <tr className="border-b">
-                    <th className="py-4 pr-4 font-semibold text-gray-700">住所</th>
-                    <td className="py-4 text-gray-600">〒213-0001 神奈川県川崎市高津区溝口3-12-2</td>
-                  </tr>
-                  <tr className="border-b">
-                    <th className="py-4 pr-4 font-semibold text-gray-700">連絡先</th>
-                    <td className="py-4 text-gray-600">044-567-0464</td>
-                  </tr>
-                  <tr>
-                    <th className="py-4 pr-4 font-semibold text-gray-700">適格請求書発行事業者</th>
-                    <td className="py-4 text-gray-600">登録番号：T9020001130356</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Company Information Section has been removed */}
 
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
